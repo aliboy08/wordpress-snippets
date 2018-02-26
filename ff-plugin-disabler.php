@@ -28,7 +28,6 @@ function ff_option_active_plugins( $plugins ){
 		$unnecessary_plugins[] = 'really-simple-captcha/really-simple-captcha.php';
 		$unnecessary_plugins[] = 'wp-smushit/wp-smush.php';
 		$unnecessary_plugins[] = 'wp-pagenavi/wp-pagenavi.php';
-		$unnecessary_plugins[] = 'gravityforms/gravityforms.php';
 	}
 
 	foreach ( $unnecessary_plugins as $plugin ) {
